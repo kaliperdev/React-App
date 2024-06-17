@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav-menu {
+  flex: 1;
+  background-color: #f0f0f0; /* Adjust the color as needed */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.main {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.iframe-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#streamlit-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

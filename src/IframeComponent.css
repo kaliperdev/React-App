@@ -1,0 +1,14 @@
+.iframe-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  #streamlit-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
